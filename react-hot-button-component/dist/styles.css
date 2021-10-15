@@ -1,0 +1,40 @@
+.button {
+  color: white;
+  font-size: 1em;
+  font-family: system-ui;
+  padding: 0.75em 1.5em;
+  border: 0.2em solid black;
+  font-weight: 600;
+  box-shadow: 0.2em 0.2em black;
+}
+
+.initial {
+  background-color: lightskyblue;
+}
+
+.darkPurple {
+  background-color: rgb(53, 28, 117);
+}
+
+.purple {
+  background-color: rgb(103, 78, 167);
+}
+
+.salmon {
+  background-color: rgb(224, 102, 102);
+}
+
+.lightOrange {
+  background-color: rgb(246, 178, 107);
+  color: black;
+}
+
+.yellow {
+  background-color: rgb(255, 255, 0);
+  color: black;
+}
+
+.white {
+  background-color: white;
+  color: black;
+}
