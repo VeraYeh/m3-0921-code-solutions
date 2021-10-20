@@ -1,0 +1,46 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+input {
+  border: 3px solid black;
+  font-size: 1.2em;
+}
+
+div {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+i {
+  padding-left: 20px;
+}
+
+.message {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  font-weight: bold;
+  color: red;
+}
+
+.fa-times {
+  color: red;
+  font-size: x-large;
+}
+
+.fa-check {
+  color: green;
+  font-size: x-large;
+}
+
+#root {
+  padding: 10px;
+}
