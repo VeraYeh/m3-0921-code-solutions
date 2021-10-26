@@ -1,0 +1,21 @@
+body {
+  font-family: cursive;
+}
+
+ul {
+  cursor: pointer;
+  list-style-type: none;
+  width: 50%;
+}
+
+li,
+p {
+  border: black 2px solid;
+  margin: 0;
+  padding: 0.5em;
+}
+
+li {
+  background-color: lightsteelblue;
+  font-size: 1.25em;
+}
