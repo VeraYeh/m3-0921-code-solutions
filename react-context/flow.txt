@@ -1,0 +1,15 @@
+1. User can sign up.
+When user enter username and password at sign up page, the handlechange event is triggered and the state properties and values are updated with event target values.
+Then, when user clicks register, the action is saved in props and the server sends a post request to server, if the action is sign up to save the user input values,
+and change the window location to sign in. And the page is rendered using the value of AppContext.
+
+2. User can sign in.
+When user enter username and password at sign in page, the handlechange event is triggered and the state properties and values are updated with event target values.
+Then, when user clicks register, the action is saved in props and the server sends a post request to server, if the action is sign in, the values are checked and
+authorized with token. And the user is signed in and the page is rendered using the value of AppContext.
+
+3. User can stay signed in (even if they refresh the page).
+When user refresh the page after the signed in, without clicking other link that re-directs to other location, the url stays the same and user stays signed in.
+
+4. User can sign out.
+When user clicks sign out, the user value in state is set to null, and the value in local storage is removed. And the page is rendered using the value of AppContext.
