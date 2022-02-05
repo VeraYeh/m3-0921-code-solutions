@@ -1,0 +1,27 @@
+img {
+  width: 30%;
+  padding: 2em;
+}
+
+i {
+  cursor: pointer;
+}
+
+#root > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-circle {
+  padding: 0.4em;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+  font-size: 2em;
+}
+
+.empty {
+  display: none;
+}
